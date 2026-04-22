@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 5
+names: ['helmet', 'no-helmet', 'no-vest', 'person', 'vest']
+
+roboflow:
+  workspace: dimass-workspace-grked
+  project: dimass-workspace-grked
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/dimass-workspace-grked/dimass-workspace-grked/dataset
